@@ -1,0 +1,16 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Tableau temp files
+*.twbx.lock
+*.tbin
+*.log
+
+# Env / secrets
+.env
+*.env
