@@ -2,7 +2,7 @@
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1) ![Tableau](https://img.shields.io/badge/Tableau-Dashboard-E97627) ![Live](https://img.shields.io/badge/Dashboard-Live-brightgreen) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-![Summary Dashboard](docs/screenshots/summary.png)
+![Summary Dashboard](screenshots/summary.png)
 
 🔗 **[Try the Live Dashboard Here](https://public.tableau.com/app/profile/vibes.p/viz/Bank_loan_project_17830053557660/SUMMARY)**
 
@@ -37,7 +37,7 @@ employment length, and home ownership.
 
 | Summary | Overview | Details |
 |---|---|---|
-| ![Summary](docs/screenshots/summary.png) | ![Overview](docs/screenshots/overview.png) | ![Details](docs/screenshots/details.png) |
+| ![Summary](screenshots/summary.png) | ![Overview](screenshots/overview.png) | ![Details](screenshots/details.png) |
 
 👉 **[Open the live dashboard](https://public.tableau.com/app/profile/vibes.p/viz/Bank_loan_project_17830053557660/SUMMARY)** to filter by Purpose, Grade, and Verification Status yourself.
 
@@ -72,12 +72,12 @@ bank-loan-sql-project/
 ├── query3_advanced_analytics.sql            # CTEs, window functions, ranking, segmentation
 ├── query4_views_and_materialized_views.sql  # reusable objects for the BI layer
 ├── query5_functions_and_procedures.sql      # parameterized PL/pgSQL functions
+├── screenshots/
+│   ├── summary.png
+│   ├── overview.png
+│   └── details.png
 └── docs/
-    ├── data_dictionary.md
-    └── screenshots/
-        ├── summary.png
-        ├── overview.png
-        └── details.png
+    └── data_dictionary.md
 ```
 
 ---
